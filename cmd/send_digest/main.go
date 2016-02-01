@@ -1,7 +1,7 @@
 package main
 
 import (
-	notable "github.com/joshualcoffee/notable"
+		notable "github.com/harvesthq/notable"
 )
 
 func main() {
