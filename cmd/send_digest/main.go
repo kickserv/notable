@@ -2,7 +2,6 @@ package main
 
 import (
 	notable "github.com/joshualcoffee/notable"
-	"os"
 )
 
 func main() {

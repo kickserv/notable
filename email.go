@@ -41,7 +41,7 @@ func Email() string {
 	return autolinkRegexp.ReplaceAllString(html.String(), "$1<a href=\"$2\">$2</a>")
 }
 
-func SendEmail(apiKey string) {
+func SendEmail() {
 	subject := pluralize(len(Notes()), "Notable Announcement")
 	if os.Getenv("POSTMARK_API_KEY") != "" {
 		sendViaPostmark(subject, Email())
