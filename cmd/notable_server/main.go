@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	notable "../notable"
+	notable "../../notable"
 	"log"
 	"net/http"
 	"net/url"
