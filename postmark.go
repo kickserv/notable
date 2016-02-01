@@ -3,7 +3,7 @@ package notable
 import (
 	"log"
 	"net/mail"
-	postmark "notable/Godeps/_workspace/src/github.com/hjr265/postmark.go/postmark"
+	postmark "github.com/hjr265/postmark.go/postmark"
 	"os"
 	"strings"
 )
