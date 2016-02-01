@@ -52,7 +52,7 @@ func clearHandler(responseWriter http.ResponseWriter, request *http.Request) {
 
 func emailHandler(responseWriter http.ResponseWriter, request *http.Request) {
 	request.ParseForm()
-	token := request.Form.Get("token")
+	//token := request.Form.Get("token")
 	notable.SendEmail()
 	//if validToken(token) {
 		responseWriter.Header().Set("Content-Type", "text/html")
