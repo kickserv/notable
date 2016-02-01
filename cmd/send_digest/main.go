@@ -1,7 +1,7 @@
 package main
 
 import (
-	notable "notable/Godeps/_workspace/src/github.com/joshualcoffee/notable"
+	notable "github.com/joshualcoffee/notable"
 )
 
 func main() {
