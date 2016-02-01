@@ -1,5 +1,5 @@
 {
-	"ImportPath": "notable",
+	"ImportPath": "github.com/harvesthq/notable",
 	"GoVersion": "go1.5",
 	"Packages": [
 		"./..."
@@ -14,16 +14,8 @@
 			"Rev": "9d4db5d1dbeff473d50e1bb82f5405c8cca0f0ac"
 		},
 		{
-			"ImportPath": "github.com/harvesthq/notable",
-			"Rev": "d8f9e47afb48a1476ae9fe8d086339a2d36d2c18"
-		},
-		{
 			"ImportPath": "github.com/hjr265/postmark.go/postmark",
 			"Rev": "6d6b3dad1442bf91f92f0dc0caf703ee85a4f2c1"
-		},
-		{
-			"ImportPath": "github.com/joshualcoffee/notable",
-			"Rev": "ba2ff9e8a0ba67eebb57d8c1c5943cdad640dc77"
 		},
 		{
 			"ImportPath": "github.com/keighl/mandrill",
