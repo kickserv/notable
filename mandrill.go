@@ -1,8 +1,8 @@
 package notable
 
 import (
+	mandrill "github.com/keighl/mandrill"
 	"log"
-	mandrill "notable/Godeps/_workspace/src/github.com/keighl/mandrill"
 	"os"
 )
 
