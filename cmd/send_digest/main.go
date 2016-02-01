@@ -1,13 +1,13 @@
 package main
 
 import (
-	notable "github.com/harvesthq/notable"
+	notable "github.com/joshualcoffee/notable"
 	"os"
 )
 
 func main() {
 	if len(notable.Notes()) > 0 {
-		notable.SendEmail(os.Getenv("MANDRILL_API_KEY"))
+		notable.SendEmail()
 		notable.Reset()
 	}
 }

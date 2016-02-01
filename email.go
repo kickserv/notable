@@ -44,19 +44,11 @@ func Email() string {
 }
 
 func SendEmail(apiKey string) {
-	client := mandrill.ClientWithKey(apiKey)
 	subject := pluralize(len(Notes()), "Notable Announcement")
-
-	message := &mandrill.Message{}
-	message.AddRecipient(os.Getenv("TO_EMAIL"), os.Getenv("TO_NAME"), "to")
-	message.FromEmail = os.Getenv("FROM_EMAIL")
-	message.FromName = os.Getenv("FROM_NAME")
-	message.Subject = subject
-	message.HTML = Email()
-
-	_, err := client.MessagesSend(message)
-	if err != nil {
-		log.Print(err)
+	if os.Getenv("POSTMARK_API_KEY") != "" {
+		sendViaPostmark(subject, Email())
+	} else {
+		sendViaMandrill(subject, Email())
 	}
 }
 

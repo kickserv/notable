@@ -14,6 +14,10 @@
 			"Rev": "9d4db5d1dbeff473d50e1bb82f5405c8cca0f0ac"
 		},
 		{
+			"ImportPath": "github.com/hjr265/postmark.go/postmark",
+			"Rev": "6d6b3dad1442bf91f92f0dc0caf703ee85a4f2c1"
+		},
+		{
 			"ImportPath": "github.com/keighl/mandrill",
 			"Comment": "1.0.0-14-g5d7133f",
 			"Rev": "5d7133fb578a9504f8ab549737c993422f65a000"
