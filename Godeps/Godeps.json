@@ -18,10 +18,6 @@
 			"Rev": "6d6b3dad1442bf91f92f0dc0caf703ee85a4f2c1"
 		},
 		{
-			"ImportPath": "github.com/joshualcoffee/notable",
-			"Rev": "ba2ff9e8a0ba67eebb57d8c1c5943cdad640dc77"
-		},
-		{
 			"ImportPath": "github.com/keighl/mandrill",
 			"Comment": "1.0.0-14-g5d7133f",
 			"Rev": "5d7133fb578a9504f8ab549737c993422f65a000"
